@@ -40,6 +40,18 @@
     border: solid 1px black
 }
 
+.navbar-link {
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+}
+
+.navbar-link:hover {
+    text-decoration: underline;
+}
+
+
+
 .d-flex {
     display: flex;
 }
