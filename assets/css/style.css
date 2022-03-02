@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.container {
+    margin: 0 3rem;
+    height: 100vh;
+}
+
+/* header */
+/* navbar */
+.header {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.header .nav-bar {
+    display: flex;
+    gap: 2rem;
+}
+
+.header .nav-bar .nav-list{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    list-style: none;
+}
+
+.navbar-btn .login-btn {
+    text-decoration: none;
+    color: black;
+    padding: .4rem 2rem;
+    margin: 0 0 0 2rem;
+    border: solid 1px black
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    width: 25%;
+    margin: 9rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+
+.login .login-header {
+    gap: 1rem;
+}
+
+.login .login-header h1 {
+    font-size: 33px;
+}
+
+.login .login-header h2 {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.login form {
+    gap: 1rem;
+}
+
+.form-control {
+    width: 100%;
+    padding: .5rem .8rem;
+}
+
+.form-group {
+    font-size: 12px;
+    color: #1c1c1c;
+}
+
+.login-options {
+    justify-content: space-between;
+}
+
+.login-options a {
+    text-decoration: none;
+    color: #1C1C1C;
+}
+.btn {
+    width: 100%;
+    padding: .3rem;
+    background-color: white;
+    border : solid 1px black;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #333;
+}
